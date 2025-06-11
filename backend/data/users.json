@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1749441643102,
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "password": "$2b$10$pX1qBNRZXnFWu3FTGxktNuNFF2FNE4F0XPAfpWlUibnjrCCmg7wDy",
+    "role": "admin"
+  },
+  {
+    "id": 1749441808693,
+    "username": "staf",
+    "email": "staff@gmail.com",
+    "password": "$2b$10$QpES5BMFm9vub8PvJdf/2ui.m48NVf11pdMaWrzq554iaYXTInU9a",
+    "role": "staff"
+  },
+  {
+    "id": 1749442382980,
+    "username": "adit2",
+    "email": "adit2@gmail.com",
+    "password": "$2b$10$hHCK.DGZu2ZIzoOp6otHpOYfmUa94sDIRg2So.8oha9izyzrq/ObS",
+    "role": "admin"
+  },
+  {
+    "id": 1749642545893,
+    "username": "Alex",
+    "email": "Alex@gmail.com",
+    "password": "$2b$10$nZhhIybf/om3FdU/McDZBurhAh4eDkvEpWip7nXeBwRCjFmSIf1R2",
+    "role": "user"
+  }
+]

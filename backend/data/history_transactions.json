@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1749649890362,
+    "date": "2025-06-04",
+    "type": "Adjustment",
+    "item": "ASUS",
+    "quantity": 6,
+    "notes": "Damaged in a way"
+  },
+  {
+    "id": 1,
+    "date": "2025-05-20",
+    "type": "Incoming",
+    "item": "Laptop",
+    "quantity": 10,
+    "notes": "Received from supplier"
+  },
+  {
+    "id": 2,
+    "date": "2025-05-21",
+    "type": "Outgoing",
+    "item": "Keyboard",
+    "quantity": 5,
+    "notes": "Shipped to customer"
+  },
+  {
+    "id": 3,
+    "date": "2025-05-22",
+    "type": "Adjustment",
+    "item": "Mouse",
+    "quantity": -2,
+    "notes": "Damaged stock removed"
+  }
+]

@@ -1,0 +1,114 @@
+.transaction-container {
+  padding: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+  background-color: #f9fafb;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.transaction-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.btn-add-transaction {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.btn-add-transaction:hover {
+  background-color: #1e40af;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+}
+
+.transaction-table thead {
+  background-color: #2563eb;
+  color: white;
+  text-align: left;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #f3f4f6;
+}
+
+/* Color coding for transaction types */
+.type-incoming {
+  color: #10b981; /* green */
+  font-weight: 600;
+}
+
+.type-outgoing {
+  color: #ef4444; /* red */
+  font-weight: 600;
+}
+
+.type-adjustment {
+  color: #f59e0b; /* amber */
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .transaction-table thead {
+    display: none;
+  }
+
+  .transaction-table, .transaction-table tbody, .transaction-table tr, .transaction-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .transaction-table tr {
+    margin-bottom: 16px;
+    border-bottom: 2px solid #e5e7eb;
+  }
+
+  .transaction-table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .transaction-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 16px;
+    width: 45%;
+    padding-left: 10px;
+    font-weight: 600;
+    text-align: left;
+    color: #374151;
+  }
+}
